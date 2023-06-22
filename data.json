@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    { "data": { "id": "vertex1", "parent": "anno1" }},
+    { "data": { "id": "vertex2", "parent": "anno1" }},
+    { "data": { "id": "vertex3", "parent": "anno2" }},
+    { "data": { "id": "vertex4", "parent": "anno2" }},
+    { "data": { "id": "vertex5", "parent": "anno3" }},
+    { "data": { "id": "vertex6", "parent": "anno3" }},
+    { "data": { "id": "vertex7", "parent": "anno4" }},
+    { "data": { "id": "vertex8", "parent": "anno4" }},
+    { "data": { "id": "vertex9", "parent": "anno5" }},
+    { "data": { "id": "vertex10", "parent": "anno5" }},
+    { "data": { "id": "anno1", "parent": "level2-1" }},
+    { "data": { "id": "anno2", "parent": "level2-1" }},
+    { "data": { "id": "anno3", "parent": "level2-2" }},
+    { "data": { "id": "anno4", "parent": "level2-2" }},
+    { "data": { "id": "anno5", "parent": "level2-3" }},
+    { "data": { "id": "level2-1", "parent": "level1-1" }},
+    { "data": { "id": "level2-2", "parent": "level1-1" }},
+    { "data": { "id": "level2-3", "parent": "level1-2" }},
+    { "data": { "id": "level1-1" }},
+    { "data": { "id": "level1-2" }}
+  ],
+  "edges": [
+    { "data": { "id": "edge1", "source": "vertex1", "target": "vertex3" }},
+    { "data": { "id": "edge2", "source": "vertex2", "target": "vertex4" }},
+    { "data": { "id": "edge3", "source": "vertex3", "target": "vertex5" }},
+    { "data": { "id": "edge4", "source": "vertex4", "target": "vertex6" }},
+    { "data": { "id": "edge5", "source": "vertex5", "target": "vertex7" }},
+    { "data": { "id": "edge6", "source": "vertex6", "target": "vertex8" }},
+    { "data": { "id": "edge7", "source": "vertex7", "target": "vertex9" }},
+    { "data": { "id": "edge8", "source": "vertex8", "target": "vertex10" }},
+    { "data": { "id": "edge9", "source": "vertex9", "target": "vertex1" }},
+    { "data": { "id": "edge10", "source": "vertex10", "target": "vertex2" }},
+    { "data": { "id": "edge11", "source": "level1-1", "target": "level1-2" }}
+  ]
+}
+
